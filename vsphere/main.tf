@@ -1,7 +1,7 @@
 provider "vsphere" {
-  user                 = var.vsphere_user
-  password             = var.vsphere_password
-  vsphere_server       = var.vsphere_server
+  user                 = "Oharutz@pso-il.local"
+  password             = "VMware1!"
+  vsphere_server       = "10.23.204.111"
   allow_unverified_ssl = true
 }
 
