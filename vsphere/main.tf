@@ -1,7 +1,7 @@
 provider "vsphere" {
-  user                 = "Oharutz@pso-il.local"
-  password             = "VMware1!"
-  vsphere_server       = "10.23.204.111"
+  user                 = "<USER>"
+  password             = "<PASSWORD>"
+  vsphere_server       = "<IPADDRESS>"
   allow_unverified_ssl = true
 }
 
